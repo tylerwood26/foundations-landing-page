@@ -8,6 +8,9 @@
 
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 header {
@@ -31,4 +34,45 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.awesome-website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    background-color: #1f2937;
+    gap: 50px;
+}
+
+.awesome-website-text {
+    width: 50%;
+}
+
+.awesome-website-img {
+    width: 50%;
+    background-color: gray;
+    color: #f9faf8;
+    justify-items: center;
+    padding: 75px 100px;
+}
+
+.awesome-title {
+    font-size: 48px;
+    font-weight: 900px;
+    color: #f9faf8;
+}
+
+.awesome-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px;
+    border-radius: 20%;
+    border: none;
+    margin-top: 10px;
 }
