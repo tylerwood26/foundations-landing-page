@@ -133,3 +133,28 @@ header {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.call-to-action {
+    padding: 100px 300px;
+}
+
+.action-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+
+.text {
+    color: #f9faf8;
+}
+
+.action-content button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
